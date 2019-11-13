@@ -25,11 +25,11 @@ module.exports = function (content, map, meta) {
 
     if (w || h) {
       if (!w) {
-        w = Math.round(h / metadata.height);
+        w = Math.round(metadata.width * (h / metadata.height));
       }
 
       if (!h) {
-        h = Math.round(w / metadata.width);
+        h = Math.round(metadata.height * (w / metadata.width));
       }
 
       image.resize(w, h);
