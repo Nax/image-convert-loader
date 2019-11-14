@@ -1,7 +1,6 @@
 {
-  "devDependencies": {},
   "name": "image-convert-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An advanced image loader for webpack",
   "main": "src/index.js",
   "repository": "https://github.com/Nax/image-convert-loader",
